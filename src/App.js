@@ -1,18 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import List from './components/List'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Workshop 1</h1>
-      <h3>First website</h3>
-      <p>Check this out!</p>
-      <img src="t2.jpg" alt="Santa photo" />
-      <br />
-      <a href="#" class="click"> Click me </a>
-      <input class="click" type="button" onclick="sayHello()" value=" Click me too" />
+    <div>
+      <List />
 
-      <script src="workshop1.js"></script>
     </div>
   );
 }
